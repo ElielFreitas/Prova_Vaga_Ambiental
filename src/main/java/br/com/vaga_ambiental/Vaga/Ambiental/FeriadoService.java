@@ -16,7 +16,7 @@ import java.util.List;
 public class FeriadoService {
 
     private static final String API_URL = "https://spprev.ambientalqvt.com.br/api/dinamico/avaliacao-vaga/registrar-feriados";
-    private static final String BEARER_TOKEN = "<c35d9d94-10c1-428c-b62c-a970e40e7d6f>"; // Substitua pelo token enviado
+    private static final String BEARER_TOKEN = "<c35d9d94-10c1-428c-b62c-a970e40e7d6f>";
 
     @Autowired
     private FeriadoRepository feriadoRepository;
